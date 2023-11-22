@@ -11,7 +11,7 @@ Dependencias del proyecto
   import numpy 
 
 Uso del programa
-  Para asegurar el funcionanamiento del programa, se debe asegurar la instalacion de las dependencias. Luego, desde la linea de comandos, el proyecto se puede ejecutar al escribir lo siguiente:
+  Para asegurar el funcionamiento del programa, se debe asegurar la instalacion de las dependencias. Luego, desde la linea de comandos, el proyecto se puede ejecutar al escribir lo siguiente:
   Para usar la biblioteca de OpenCV 
     python3 procesarImagenes.py --biblioteca=OpenCV --imagen=image.jpg
   Para usar la biblioteca de PIL
