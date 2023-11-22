@@ -10,8 +10,11 @@ Diagrama
 Dependencias del proyecto
 
   import argparse
+  
   from PIL import Image
+  
   import cv2
+  
   import numpy 
 
 ##########
@@ -20,9 +23,11 @@ Uso del programa
 
   Para asegurar el funcionamiento del programa, se debe asegurar la instalacion de las dependencias. Luego, desde la linea de comandos, el proyecto se puede ejecutar al escribir lo siguiente:
   
-  Para usar la biblioteca de OpenCV 
+  Para usar la biblioteca de OpenCV:
+  
     python3 procesarImagenes.py --biblioteca=OpenCV --imagen=image.jpg
 
     
-  Para usar la biblioteca de PIL
+  Para usar la biblioteca de PIL:
+  
     python3 procesarImagenes.py --biblioteca=PIL --imagen=image.jpg
